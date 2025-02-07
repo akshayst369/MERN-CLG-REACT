@@ -13,7 +13,15 @@ const App = () => {
       {/* /using spread operator */}
       <Name {...userData} />
 
-      
+    {/* without spread operator */}
+      <Name fname ={userData.fname} 
+      lname = {userData.lname}
+       ph_no = {userData.ph_no} />
+
+    <h1>Hi</h1>
+    <h1>asdf</h1>
+
+    </div>
   )
 }
 
