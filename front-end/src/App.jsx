@@ -10,10 +10,10 @@ const App = () => {
   }
   return (
     <div>
-      <Name fname ={userData.fname} 
-      lname = {userData.lname}
-       ph_no = {userData.ph_no} />
-    </div>
+      {/* /using spread operator */}
+      <Name {...userData} />
+
+      
   )
 }
 
